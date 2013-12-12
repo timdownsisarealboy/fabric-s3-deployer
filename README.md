@@ -5,4 +5,4 @@ Deploy static directories to S3
 pip install -r requirements.pip
 
 ## To deploy
-fab fab deploy: *aws-key*,*aws-secret*,*domain*,*directory*
+fab deploy: *aws-key*,*aws-secret*,*domain*,*directory*
